@@ -2,7 +2,7 @@ function addLayout(container) {
   container.insertAdjacentHTML(
     `afterbegin`,
     `<div class="general-layout">
-  <img class="logo" src="/src/logo.png" />
+  <img class="logo" src="/src/assets/logo.png" />
   <div class="tab-container">
     <button class="homepage tab">Home</button>
     <button class="menu tab">Menu</button>
@@ -10,6 +10,12 @@ function addLayout(container) {
   </div>
 </div>`
   );
+
+  const homeTab = document.querySelector(`.homepage`);
+  const menuTab = document.querySelector(`.menu`);
+  const aboutTab = document.querySelector(`.about-us`);
+
+  return { homeTab, menuTab, aboutTab };
 }
 
 export { addLayout };
