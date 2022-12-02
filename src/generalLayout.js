@@ -2,7 +2,7 @@ function addLayout(container) {
   container.insertAdjacentHTML(
     `afterbegin`,
     `<div class="general-layout">
-  <img class="logo" src="/src/assets/logo.png" />
+  <img class="logo" src="" />
   <div class="tab-container">
     <button class="homepage tab">Home</button>
     <button class="menu tab">Menu</button>
