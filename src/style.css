@@ -90,3 +90,11 @@ body {
 #menu img {
   height: 300px;
 }
+
+#about > h1 {
+  margin-top: 20px;
+}
+
+#about > p {
+  margin: 0;
+}
