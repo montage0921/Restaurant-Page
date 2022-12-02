@@ -7,7 +7,7 @@ export default function addMenuPage() {
   container.insertAdjacentHTML(
     `beforeend`,
     ` <div id="menu">
-  <img src="/src/assets/menu.jpg" alt="" />
+  <img src="" alt="" />
   <p>
     Our omakase menu is based on the traditional Japanese dining style in
     which we defer to the chef to curate seasonal specialities. The price for

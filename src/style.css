@@ -91,6 +91,14 @@ body {
   height: 300px;
 }
 
+#homepage img {
+  content: url(/src/assets/homepage.jpg);
+}
+
+#menu img {
+  content: url(/src/assets/menu.jpg);
+}
+
 #about > h1 {
   margin-top: 20px;
 }

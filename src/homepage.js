@@ -8,7 +8,7 @@ function addHomepage() {
   container.insertAdjacentHTML(
     `beforeend`,
     ` <div id="homepage">
-  <img src="/src/assets/homepage.jpg" alt="" />
+  <img src="" alt="" />
   <p>
     Sushi Masaki Saito is a high-end, traditional sushi omakase
     restaurant. It is the first and only restaurant in Canada with a two
