@@ -25,24 +25,37 @@ body {
   top: 0%;
 
   width: 100%;
-
-  margin: 15px;
 }
 
 .general-layout {
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 30px;
 }
 
 .logo {
-  width: 300px;
+  width: 250px;
 }
 
 .tab-container {
-  margin-right: clamp(100px, 3rem, 250px);
+  margin-right: clamp(400px, 1rem, 350px);
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.tab {
   color: white;
-  text-decoration: underline;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 1s;
+  font-size: 1rem;
+  letter-spacing: 2.5px;
+}
+
+.tab:focus {
+  transform: scale(1.1);
 }

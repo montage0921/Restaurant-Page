@@ -4,9 +4,9 @@ function addLayout(container) {
     `<div class="general-layout">
   <img class="logo" src="/src/logo.png" />
   <div class="tab-container">
-    <div class="homepage">Home</div>
-    <div class="menu">Menu</div>
-    <div class="about-us">About us</div>
+    <button class="homepage tab">Home</button>
+    <button class="menu tab">Menu</button>
+    <button class="about-us tab">About us</button>
   </div>
 </div>`
   );
