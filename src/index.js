@@ -1,5 +1,9 @@
+import { addLayout } from "./generalLayout";
 import { addHomepage } from "./homepage";
+
+import "./style.css";
 
 const container = document.querySelector(`#content`);
 
-addHomepage(container);
+addLayout(container);
+// addHomepage(container);

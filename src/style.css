@@ -1,0 +1,48 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+
+  margin: 0;
+}
+
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(1, 1, 1, 1)),
+    url(Restaurant.jpg);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  position: absolute;
+  top: 0%;
+
+  width: 100%;
+
+  margin: 15px;
+}
+
+.general-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 300px;
+}
+
+.tab-container {
+  margin-right: clamp(100px, 3rem, 250px);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  text-decoration: underline;
+}
